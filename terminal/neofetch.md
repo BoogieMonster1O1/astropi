@@ -16,8 +16,8 @@ neofetch
 
 Neofetch is not installed by default on most systems. You can install it using the package manager of your distribution. 
 
-macOS  - `brew install neofetch`
-Ubuntu - `sudo apt install neofetch`
-Fedora - `sudo dnf install neofetch`
-Arch   - `sudo pacman -S neofetch`
-Gentoo - `sudo emerge --ask app-misc/neofetch`
+macOS  - `brew install neofetch`  
+Ubuntu - `sudo apt install neofetch`  
+Fedora - `sudo dnf install neofetch`  
+Arch   - `sudo pacman -S neofetch`  
+Gentoo - `sudo emerge --ask app-misc/neofetch`  

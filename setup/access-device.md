@@ -6,6 +6,8 @@ This page covers how to access the Raspberry Pi from your computer. So far, we k
 - Serial Console
 - Physical Access
 
+[VNC](#vnc) is the recommended way to interact with the Raspberry Pi. [SSH](#ssh) is a good alternative if you're comfortable with the terminal.
+
 ## Prerequisites
 
 On Windows, you will need to install [PuTTY](https://www.putty.org/) to use SSH or the Serial Console.
@@ -49,16 +51,46 @@ ssh astroberry@<ip-address>
 The default password is `astroberry`.	
 
 
-## VNC
+## VNC <Badge text="Recommended" />
 
 VNC stands for Virtual Network Computing. It allows you to view and interact with the Raspberry Pi's desktop. It is useful when you need to use the Raspberry Pi's graphical interface.
 
 To use VNC, you will need to install a VNC viewer on your computer. [RealVNC](https://www.realvnc.com/en/connect/download/viewer/) and [TigerVNC](https://tigervnc.org/) are popular choices.
 
-To install TigerVNC on Linux,
-Ubuntu - `sudo apt install tigervnc-viewer`
-Fedora - `sudo dnf install tigervnc`
-Arch   - `sudo pacman -S tigervnc`
-Gentoo - `sudo emerge --ask net-misc/tigervnc`
+To install TigerVNC on Linux,  
+Ubuntu - `sudo apt install tigervnc-viewer`  
+Fedora - `sudo dnf install tigervnc`  
+Arch   - `sudo pacman -S tigervnc`  
+Gentoo - `sudo emerge --ask net-misc/tigervnc`  
 
+### Ethernet
+Similar to SSH, plug the Raspberry Pi into your computer using an Ethernet cable. Connect to `astroberry.local` using the VNC viewer.
 
+### Wi-Fi
+You will first need to [connect the Raspberry Pi to a network](/setup/internet.md). Similar to SSH, you will need to find the IP address of the Raspberry Pi, and connect to it using the VNC viewer.
+
+## Serial Console <Badge type="warning" text="Needs testing" />
+
+The Raspberry Pi has a serial console that allows you to interact with the Raspberry Pi using a serial connection. This is useful when you don't have access to a network. You will need to install [minicom](https://www.google.com/search?q=minicom) on your computer to use the Serial Console.
+
+To begin, plug the Raspberry Pi into your computer using a USB to TTL serial cable.
+
+### Serial connection using USB to TTL serial cable
+
+Connect the USB to TTL serial cable to the Raspberry Pi. The connections are as follows:
+1. Black wire - GND
+2. Green wire - TX
+3. White wire - RX
+
+### Serial connection using Arduino UNO
+
+You can also use an Arduino UNO to connect to the Raspberry Pi. The connections are as follows:
+1. Arduino RESET - Arduino GND
+2. Arduino TX - Raspberry Pi TX
+3. Arduino RX - Raspberry Pi RX
+
+Plug the Arduino into your computer using a USB cable. 
+
+## Physical Access
+
+This is not a viable solution as you will need a monitor, keyboard, and mouse. However, it is by far the most straightforward way to interact with the Raspberry Pi. Plug in the monitor (using a mini-HDMI cable), keyboard (USB), and mouse (USB) into the Raspberry Pi. The monitor should display the Raspberry Pi desktop.
