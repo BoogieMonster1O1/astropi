@@ -47,6 +47,7 @@ export default defineConfig({
 	  { text: 'Accessing the SD card', link: '/setup/accessing-sd.md'},
 	  { text: 'Accessing the Raspberry Pi', link: '/setup/access-device.md'},
 	  { text: 'Connecting to the Internet', link: '/setup/internet.md'},
+	  { text: 'Powering off', link: '/setup/poweroff.md'},
         ]
       },
       {
