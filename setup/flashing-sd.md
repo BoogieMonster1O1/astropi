@@ -1,12 +1,16 @@
+---
+editLink: true
+---
+
 # Flashing the SD card
 
 This page describes how to flash the SD card with the latest version of Raspberry Pi OS (with or without Astroberry).
 
 ## Disclaimer
 
-Flashing the SD card will erase all data on it. Make sure to backup your data before proceeding.
+**Flashing the SD card will erase all data on it.** Make sure to backup your data before proceeding.
 
-Proceed with caution. You will be responsible for any damage to your hardware or loss of data that may result from following these instructions.
+**Proceed with caution.**
 
 ## Prerequisites
 - A computer with an SD card reader
@@ -28,3 +32,19 @@ Arch   - `sudo pacman -S rpi-imager`
 4. Edit the settings for Wi-Fi, locale, and keyboard layout, if needed.
 5. Click on `WRITE` to start flashing the SD card.
 6. Remove the SD card once the process is complete.
+
+### Using Astroberry Server image
+
+1. Download the latest Astroberry Server image from the [official website](https://astroberry.io/#download).
+2. Extract the downloaded image file.
+3. Open Raspberry Pi Imager and click on `CHOOSE OS`. Select `Use custom` and navigate to the extracted image file.
+4. Click on `CHOOSE STORAGE` and select the SD card.
+5. Click on `WRITE` to start flashing the SD card.
+6. Remove the SD card once the process is complete.
+
+Alternatively, you can use the `dd` command to flash the SD card. The command syntax is as follows:
+
+```bash
+sudo dd if=astroberry-server_2.0.4.img of=/dev/sdX bs=8M status=progress 
+```
+Replace `/dev/sdX` with the path to your SD card.
