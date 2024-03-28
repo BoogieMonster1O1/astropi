@@ -13,6 +13,13 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'General',
+	items: [
+	  { text: 'Important Instructions', link: '/general/insns.md'},
+	  { text: 'Backing up', link: '/general/backup.md'},
+        ]
+      },
+      {
         text: 'Setup',
 	items: [
 	  { text: 'Synopsis', link: '/setup/synopsis.md'},
