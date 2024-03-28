@@ -49,6 +49,13 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Camera',
+	items: [
+	  { text: 'Initializing the camera', link: '/camera/init.md'},
+	  { text: 'Taking pictures', link: '/camera/taking-pictures.md'},
+        ]
+      },
+      {
         text: 'Astroberry',
 	items: [
 	  { text: 'Using the Web Interface', link: '/astroberry/web-interface.md'},
