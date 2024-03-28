@@ -21,8 +21,8 @@ features:
     details: Setting up a Raspberry Pi (optionally with Astroberry)
   - title: Network interfacing
     details: Interfacing with the Raspberry Pi over a network
-  - title: Astroberry
-    details: Use astroberry to control the Raspberry Pi using the web interface
+  - title: Camera
+    details: Use the Raspberry Pi camera module to take pictures
 ---
 
 

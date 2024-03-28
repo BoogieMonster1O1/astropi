@@ -27,6 +27,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'General', link: '/general/insns' },
       { text: 'Setup', link: '/setup/synopsis' },
+      { text: 'Camera', link: '/camera/init' },
       { text: 'Terminal', link: '/terminal/introduction' },      
     ],
 
