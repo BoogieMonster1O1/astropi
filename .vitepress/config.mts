@@ -13,6 +13,8 @@ export default defineConfig({
       }
     },
 
+    logo: '/icon.png',
+
     search: {
       provider: 'local'
     },
@@ -43,7 +45,7 @@ export default defineConfig({
 	  { text: 'Flashing the SD card', link: '/setup/flashing-sd.md'},
 	  { text: 'Accessing the SD card', link: '/setup/accessing-sd.md'},
 	  { text: 'Accessing the Raspberry Pi', link: '/setup/access-device.md'},
-	  { text: 'Internet connectivity', link: '/setup/internet-connection.md'},
+	  { text: 'Internet connectivity', link: '/setup/internet.md'},
         ]
       },
       {

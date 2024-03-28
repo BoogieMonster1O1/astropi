@@ -23,3 +23,16 @@ The Raspberry Pi SD card has two partitions:
 2. If you're on Linux, you may have to [mount the SD card](/terminal/mount-umount.md) to access its contents. If you're on macOS or Windows, the SD card should be automatically detected and mounted as a new drive.
 3. Once the SD card is mounted, you can access its contents through your file manager or terminal.
 
+
+## Safely eject
+
+**Make sure to safely eject the SD card before removing it from your computer.**
+
+Windows
+- Right-click on the SD card in the file explorer and select "Eject".
+
+macOS
+- Drag the SD card icon to the trash.
+
+Linux
+- See [this page](/terminal/mount-umount.md) for instructions.

@@ -1,12 +1,8 @@
 # Accessing the Raspberry Pi
 
-This page covers how to access the Raspberry Pi from your computer. So far, we know of four ways to interact with the Raspberry Pi:
-- SSH
-- VNC
-- Serial Console
-- Physical Access
+This page covers how to access the Raspberry Pi from your computer. So far, we know of five ways to interact with the Raspberry Pi.
 
-[VNC](#vnc) is the recommended way to interact with the Raspberry Pi. [SSH](#ssh) is a good alternative if you're comfortable with the terminal.
+[VNC](#vnc) and [Astroberry Server](#astroberry-server) is the recommended way to interact with the Raspberry Pi. [SSH](#ssh) is a good alternative if you're comfortable with the terminal.
 
 ## Prerequisites
 
@@ -24,10 +20,18 @@ Make sure SSH was enabled during the [flashing of the SD card](/setup/flashing-s
 
 Plug the Raspberry Pi into your computer using an Ethernet cable.
 
-To SSH into the Raspberry Pi, run
+If you're using PuTTY on Windows, enter `astroberry.local` as the hostname.
+
+If you're using the terminal, run
 
 ```bash
 ssh astroberry@astroberry
+```
+
+You can add the -Y flag to enable X11 forwarding. This allows you to run graphical applications on the Raspberry Pi and have them displayed on your computer.
+
+```bash
+ssh -Y astroberry@astroberry
 ```
 
 The default password is `astroberry`. The format is `ssh username@hostname`.
@@ -44,8 +48,18 @@ ipscan
 
 You will need to install [angry ip scanner](https://angryip.org/download/) to use `ipscan`. Once you have the IP address, you can SSH into the Raspberry Pi by running
 
+If you're using PuTTY on Windows, enter the IP address as the hostname.
+
+If you're using the terminal, run
+
 ```bash
 ssh astroberry@<ip-address>
+```
+
+You can add the -Y flag to enable X11 forwarding. This allows you to run graphical applications on the Raspberry Pi and have them displayed on your computer.
+
+```bash
+ssh -Y astroberry@<ip-address>
 ```
 
 The default password is `astroberry`.	
@@ -68,6 +82,17 @@ Similar to SSH, plug the Raspberry Pi into your computer using an Ethernet cable
 
 ### Wi-Fi
 You will first need to [connect the Raspberry Pi to a network](/setup/internet.md). Similar to SSH, you will need to find the IP address of the Raspberry Pi, and connect to it using the VNC viewer.
+
+## Astroberry Server <Badge text="Recommended" />
+
+Astroberry Server provides a web-based interface that allows you to control the Raspberry Pi from a web browser. 
+
+1. Connect your device to the `astroberry` Wi-Fi hotspot.
+2. Open a web browser and navigate to `http://10.42.0.1`. You should see the Astroberry Server interface.
+3. Enter the password (default `astroberry`) to log in.
+4. You can now control the Raspberry Pi, similar to using VNC, from the web interface.
+
+Note that you will not be able to access the internet through Wi-Fi while connected to the `astroberry` Wi-Fi hotspot. If you need to access the internet, you will need to connect the Raspberry Pi to a network using an Ethernet cable. 
 
 ## Serial Console <Badge type="warning" text="Needs testing" />
 
