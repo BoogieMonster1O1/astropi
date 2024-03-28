@@ -1,3 +1,7 @@
+---
+editLink: true
+---
+
 # Important Instructions
 
 Read the following instructions carefully before using the Raspberry Pi and the camera module.

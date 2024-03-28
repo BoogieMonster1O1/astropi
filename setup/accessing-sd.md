@@ -1,3 +1,7 @@
+---
+editLink: true
+---
+
 # Accessing the SD card
 
 This page covers how to access the SD card from your computer.

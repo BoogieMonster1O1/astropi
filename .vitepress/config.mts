@@ -5,6 +5,14 @@ export default defineConfig({
   title: "Astro Pi",
   description: "Knowledge base for Raspberry Pi Astrophotography",
   themeConfig: {
+    lastUpdated: {
+      text: 'Updated at',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
+
     search: {
       provider: 'local'
     },
@@ -42,10 +50,11 @@ export default defineConfig({
         text: 'Terminal',
 	items: [
 	  { text: 'Introduction', link: '/terminal/introduction.md'},
-	  { text: 'Basic commands', link: '/terminal/basic-commands.md'},
+	  { text: 'Basic commands', link: '/terminal/basic.md'},
 	  { text: 'Neofetch', link: '/terminal/neofetch.md'},
-	  { text: 'Listing storage devices', link: '/setup/lsblk.md'},
-	  { text: 'Mounting / unmounting storage', link: '/setup/mount-umount.md'},
+	  { text: 'Editing files', link: '/terminal/editing.md'},
+	  { text: 'Listing storage devices', link: '/terminal/lsblk.md'},
+	  { text: 'Mounting / unmounting storage', link: '/terminal/mount-umount.md'},
         ]
       }
     ],

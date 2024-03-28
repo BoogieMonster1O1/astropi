@@ -1,3 +1,7 @@
+---
+editLink: true
+---
+
 # Backing up the SD card
 
 It is important to back up the SD card occasionally. This will allow you to restore the system to its previous state if something goes wrong.

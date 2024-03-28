@@ -19,7 +19,7 @@ This page describes how to flash the SD card with the latest version of Raspberr
 
 ## Flashing the OS image
 
-### Using Raspberry Pi Imager
+### Using Raspberry Pi Imager <Badge type="danger" text="Caution" />
 
 1. Download and install [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 macOS  - `brew install rpi-imager`
@@ -33,7 +33,7 @@ Arch   - `sudo pacman -S rpi-imager`
 5. Click on `WRITE` to start flashing the SD card.
 6. Remove the SD card once the process is complete.
 
-### Using Astroberry Server image
+### Using Astroberry Server image <Badge type="danger" text="Caution" />
 
 1. Download the latest Astroberry Server image from the [official website](https://astroberry.io/#download).
 2. Extract the downloaded image file.
