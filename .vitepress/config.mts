@@ -6,10 +6,10 @@ export default defineConfig({
   description: "Knowledge base for Raspberry Pi Astrophotography",
   themeConfig: {
     lastUpdated: {
-      text: 'Updated at',
+      text: 'Last updated',
       formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
+        dateStyle: 'medium',
+        timeStyle: 'short'
       }
     },
 

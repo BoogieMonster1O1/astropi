@@ -13,7 +13,7 @@ Use the `dd` command to create an image of the SD card. Connect the SD card to y
 sudo dd if=/dev/sdX of=backup.img bs=8M status=progress
 ```
 
-Replace `/dev/sdX` with the path to your SD card. This command will create a backup image named `backup.img`.
+Replace `/dev/sdX` with the path to your SD card. You can find it [using this guide](/terminal/lsblk.md). This command will create a backup image named `backup.img`.
 
 You can see a list of connected devices by running:
 

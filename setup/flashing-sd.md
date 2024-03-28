@@ -29,7 +29,7 @@ Arch   - `sudo pacman -S rpi-imager`
 
 2. Open Raspberry Pi Imager and click on `CHOOSE OS`. Select the appropriate OS image from the list.
 3. Click on `CHOOSE STORAGE` and select the SD card.
-4. Edit the settings for Wi-Fi, locale, and keyboard layout, if needed.
+4. Edit the settings for Wi-Fi, locale, and keyboard layout, if needed. You may want to enable SSH (if not already).
 5. Click on `WRITE` to start flashing the SD card.
 6. Remove the SD card once the process is complete.
 
@@ -47,4 +47,4 @@ Alternatively, you can use the `dd` command to flash the SD card. The command sy
 ```bash
 sudo dd if=astroberry-server_2.0.4.img of=/dev/sdX bs=8M status=progress 
 ```
-Replace `/dev/sdX` with the path to your SD card.
+Replace `/dev/sdX` with the path to your SD card. You can find it [using this guide](/terminal/lsblk.md)

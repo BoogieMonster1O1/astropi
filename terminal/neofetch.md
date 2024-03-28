@@ -20,4 +20,4 @@ macOS  - `brew install neofetch`
 Ubuntu - `sudo apt install neofetch`
 Fedora - `sudo dnf install neofetch`
 Arch   - `sudo pacman -S neofetch`
-Gentoo - `emerge --ask app-misc/neofetch`
+Gentoo - `sudo emerge --ask app-misc/neofetch`
