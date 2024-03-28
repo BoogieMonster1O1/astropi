@@ -88,9 +88,11 @@ You will first need to [connect the Raspberry Pi to a network](/setup/internet.m
 Astroberry Server provides a web-based interface that allows you to control the Raspberry Pi from a web browser. 
 
 1. Connect your device to the `astroberry` Wi-Fi hotspot.
-2. Open a web browser and navigate to `http://10.42.0.1`. You should see the Astroberry Server interface.
+2. Open a web browser and navigate to http://10.42.0.1. You should see the Astroberry Server interface.
 3. Enter the password (default `astroberry`) to log in.
 4. You can now control the Raspberry Pi, similar to using VNC, from the web interface.
+
+See [this guide](/astroberry/web-interface.md) for a more detailed guide in using the web interface.
 
 Note that you will not be able to access the internet through Wi-Fi while connected to the `astroberry` Wi-Fi hotspot. If you need to access the internet, you will need to connect the Raspberry Pi to a network using an Ethernet cable. 
 

@@ -3,23 +3,27 @@
 layout: home
 
 hero:
-  name: "Astro Pi"
-  text: "The Knowledge base"
-  tagline: Raspberry PI Astrophotography
+  text: "Astro π"
+  tagline: Knowledge base for Raspberry PI Astrophotography
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get started
+      link: /general/insns
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Terminal
+      link: /terminal/basic
+    - theme: alt
+      text: Contribute
+      link: https://github.com/BoogieMonster1O1/astropi
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Raspberry Pi
+    details: Setting up a Raspberry Pi (optionally with Astroberry)
+  - title: Network interfacing
+    details: Interfacing with the Raspberry Pi over a network
+  - title: Astroberry
+    details: Use astroberry to control the Raspberry Pi using the web interface
 ---
 
+
+This is a knowledge base for dhRuVa's Astrophotography project. It contains all knowledge gathered during the project. The project is based on the Raspberry Pi and the Astroberry. It is divided into sections based on the topics covered.

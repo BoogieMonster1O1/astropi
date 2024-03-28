@@ -52,7 +52,9 @@ To write text in `emacs`, simply start typing. You can use the arrow keys to nav
 
 `vim` is a modal editor, which means it has different modes for editing text. The two primary modes are:
 - **Normal mode**: Used for navigation and executing commands.
+![vim normal mode](/vim-normal.png)
 - **Insert mode**: Used for inserting and editing text.
+![vim insert mode](/vim-insert.png)
 
 Similar to the previous editors, to open a file with `vim`, use the following command:
 
@@ -67,5 +69,9 @@ vim file.txt
 ```
 
 To write text in `vim`, press `i` to enter insert mode. You can then start typing. 
+
+<Badge>
+Tip: You can also use the Insert key on your keyboard to enter insert mode.
+</Badge>
 
 To save the changes and exit `vim`, press `Esc` to exit insert mode, then type `:wq` and press `Enter`. To exit `vim` without saving changes, press `Esc` to exit insert mode, then type `:q!` and press `Enter`.
