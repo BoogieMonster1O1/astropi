@@ -8,21 +8,24 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Setup', link: '/setup/synopsis.md' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+        text: 'Setup',
+	items: [
+	  { text: 'Synopsis', link: '/setup/synopsis.md'},
+	  { text: 'Flashing the SD card', link: '/setup/flashing-sd.md'},
+	  { text: 'Accessing the SD card', link: '/setup/accessing-sd.md'},
+	  { text: 'Accessing the device', link: '/setup/access-device.md'},
+	  { text: 'Internet connectivity', link: '/setup/internet-connection.md'},
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/BoogieMonster1O1/astropi' }
     ]
   }
 })
