@@ -13,7 +13,7 @@ This page covers basic commands that you can use in the terminal. These commands
   - An absolute path specifies the full location of a file or directory from the root directory. For example, `/home/user/Documents/file.txt` is an absolute path.
   - A relative path specifies the location of a file or directory relative to the current working directory. For example, `Documents/file.txt` is a relative path that refers to a file named `file.txt` in the `Documents` directory in the current working directory.
 
-## pwd - Print working directory
+## `pwd` - Print working directory
 
 The `pwd` command is used to print the full path of the current working directory. The working directory is the folder you are currently in. It shows you where you are in the file system.
 
@@ -35,7 +35,7 @@ macOS:
 /Users/dhruva
 ```
 
-## ls - List files
+## `ls` - List files
 
 The `ls` command lists the files and directories in the current directory. By default, it displays the names of files and directories in a single column.
 
@@ -49,7 +49,7 @@ To display detailed information about files and directories, you can use the `-l
 ls -l
 ```
 
-## cd - Change directory
+## `cd` - Change directory
 
 The `cd` command is used to change the current directory (folder). You can specify the directory you want to change to as an argument.
 
@@ -63,7 +63,7 @@ Example:
 cd Documents
 ```
 
-## mkdir - Make directory
+## `mkdir` - Make directory
 
 The `mkdir` command is used to create a new directory. You can specify the name of the directory you want to create as an argument.
 
@@ -71,7 +71,7 @@ The `mkdir` command is used to create a new directory. You can specify the name 
 mkdir <directory_name>
 ```
 
-## cp and mv - Copy and move files
+## `cp` and `mv` - Copy and move files
 
 The `cp` command is used to copy files from one location to another. You need to specify the source file and the destination directory as arguments.
 
@@ -98,7 +98,7 @@ mv file.txt Documents/file.txt
 ```
 
 
-## rm - Remove files
+## `rm` - Remove files
 
 The `rm` command is used to remove files. You need to specify the file you want to delete as an argument.
 
@@ -107,8 +107,21 @@ rm <file_path>
 ```
 
 
-## sudo - Superuser do <Badge text="Caution" type="caution"/>
+## `sudo` - Superuser do <Badge text="Caution" type="warning"/>
 
-The `sudo` command is used to run a command with superuser (administrative) privileges. It allows you to perform tasks that require elevated permissions.
+<Badge type="warning">
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+</Badge>
+
+The `sudo` command is used to run a command with superuser (administrative) privileges. It allows you to perform tasks that require elevated permissions. Use it with caution.
 
 ```bash
+sudo <command>
+```
+

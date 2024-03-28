@@ -96,7 +96,7 @@ Note that you will not be able to access the internet through Wi-Fi while connec
 
 ## Serial Console <Badge type="warning" text="Needs testing" />
 
-The Raspberry Pi has a serial console that allows you to interact with the Raspberry Pi using a serial connection. This is useful when you don't have access to a network. You will need to install [minicom](https://www.google.com/search?q=minicom) on your computer to use the Serial Console.
+The Raspberry Pi has a serial console that allows you to interact with the Raspberry Pi using a serial connection. This is useful when you don't have access to a network. You will need to install [minicom](https://www.google.com/search?q=minicom) on your computer to use the Serial Console. See the [pin diagram](/setup/synopsis#pin-diagram) for the exact pins on the Raspberry Pi.
 
 To begin, plug the Raspberry Pi into your computer using a USB to TTL serial cable.
 

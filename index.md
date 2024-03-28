@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Astro Pi"
-  text: "Knowledge base for Raspberry Pi Astrophotography"
-  tagline: My great project tagline
+  text: "The Knowledge base"
+  tagline: Raspberry PI Astrophotography
   actions:
     - theme: brand
       text: Markdown Examples

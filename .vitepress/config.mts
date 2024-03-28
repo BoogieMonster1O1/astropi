@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Astro Pi",
-  description: "Knowledge base for Raspberry Pi Astrophotography",
+  title: "Astro π",
+  description: "The Knowledge base",
   themeConfig: {
     lastUpdated: {
       text: 'Last updated',
@@ -25,9 +25,9 @@ export default defineConfig({
     
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'General', link: '/general/insns.md' },
-      { text: 'Setup', link: '/setup/synopsis.md' },
-      { text: 'Terminal', link: '/terminal/introduction.md' },      
+      { text: 'General', link: '/general/insns' },
+      { text: 'Setup', link: '/setup/synopsis' },
+      { text: 'Terminal', link: '/terminal/introduction' },      
     ],
 
     sidebar: [
@@ -45,7 +45,13 @@ export default defineConfig({
 	  { text: 'Flashing the SD card', link: '/setup/flashing-sd.md'},
 	  { text: 'Accessing the SD card', link: '/setup/accessing-sd.md'},
 	  { text: 'Accessing the Raspberry Pi', link: '/setup/access-device.md'},
-	  { text: 'Internet connectivity', link: '/setup/internet.md'},
+	  { text: 'Connecting to the Internet', link: '/setup/internet.md'},
+        ]
+      },
+      {
+        text: 'Astroberry',
+	items: [
+	  { text: 'Using the Web Interface', link: '/astroberry/web-interface.md'},
         ]
       },
       {

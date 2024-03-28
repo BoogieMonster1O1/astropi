@@ -12,6 +12,10 @@ This approach is recommended if you require Wi-Fi to connect to the Raspberry Pi
 1. Insert the SD card into your computer and [mount the data partition](/setup/accessing-sd).
 2. [Navigate](/terminal/basic.md#cd-change-directory) to the `/etc/NetworkManager/system-connections` directory.
 2. [Edit](/terminal/editing) the `Wi-Fi.nmconnection` file. It may also be called `preconfigured.nmconnection`. 
+
+![Wi-Fi.nmconnection](/wifi.png)
+<small>The actual file path is not given in the image</small>
+
 3. Change the `ssid` and `psk` fields to match your Wi-Fi network's name and password.
   - The SSID is the name of your Wi-Fi network. It is case-sensitive.
   - The PSK is a pre-shared key. Use [this tool](https://www.wireshark.org/tools/wpa-psk.html) to generate a PSK from your Wi-Fi password and SSID.
