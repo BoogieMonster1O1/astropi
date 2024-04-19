@@ -59,6 +59,12 @@ export default defineConfig({
         ]
       },
       {
+	text: 'State of the Union',
+	items: [
+	  { text: '19/04/2024', link: '/sotu/19-04-2024.md'},
+	]
+      },
+      {
         text: 'Terminal',
 	items: [
 	  { text: 'Introduction', link: '/terminal/introduction.md'},
@@ -68,10 +74,6 @@ export default defineConfig({
 	  { text: 'Listing storage devices', link: '/terminal/lsblk.md'},
 	  { text: 'Mounting / unmounting storage', link: '/terminal/mount-umount.md'},
         ]
-      },
-      {
-	text: 'State of the Union',
-	items: []
       }
     ],
 
