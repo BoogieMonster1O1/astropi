@@ -2,7 +2,7 @@
 
 ## Enabling the camera
 
-On Raspbian 10, the camera is disabled by default. To enable the camera, follow these steps:
+On Raspbian 12, **the camera is enabled by default**. However, if not enabled, follow these steps:
 1. Open the Raspberry Pi Configuration tool by running `sudo raspi-config` in the terminal.
 2. Navigate to `Interfacing Options` and select `Camera`.
 3. Select `Yes` to enable the camera.
@@ -31,4 +31,4 @@ If the camera is not detected, you will see the following output:
 supported=0 detected=0
 ```
 In this case, check the camera connection and try again.
-
+In some cases, you might get this output but the camera will still work. Make sure to test thoroughly.

@@ -7,7 +7,7 @@ You can connect your Raspberry Pi to the internet using either an Ethernet cable
 You can configure the Wi-Fi settings either directly from the SD card or from the Raspberry Pi itself.
 
 ### Directly from the SD card
-This approach is recommended if you require Wi-Fi to connect to the Raspberry Pi. For an astroberry setup, this isn't the case as the astroberry image can be connected to via its hotspot. However it is still useful if you want to connect to a different network.
+This approach is the recommended if you require Wi-Fi to connect to the Raspberry.
 
 1. Insert the SD card into your computer and [mount the data partition](/setup/accessing-sd).
 2. [Navigate](/terminal/basic.md#cd-change-directory) to the `/etc/NetworkManager/system-connections` directory.

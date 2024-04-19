@@ -58,12 +58,6 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Astroberry',
-	items: [
-	  { text: 'Using the Web Interface', link: '/astroberry/web-interface.md'},
-        ]
-      },
-      {
         text: 'Terminal',
 	items: [
 	  { text: 'Introduction', link: '/terminal/introduction.md'},
