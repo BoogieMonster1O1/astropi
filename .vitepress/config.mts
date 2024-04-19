@@ -68,6 +68,10 @@ export default defineConfig({
 	  { text: 'Listing storage devices', link: '/terminal/lsblk.md'},
 	  { text: 'Mounting / unmounting storage', link: '/terminal/mount-umount.md'},
         ]
+      },
+      {
+	text: 'State of the Union',
+	items: []
       }
     ],
 
