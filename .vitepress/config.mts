@@ -55,6 +55,7 @@ export default defineConfig({
 	items: [
 	  { text: 'Initializing the camera', link: '/camera/init.md'},
 	  { text: 'Taking pictures', link: '/camera/taking-pictures.md'},
+	  { text: 'Taking videos', link: '/camera/taking-videos.md'},
         ]
       },
       {
