@@ -14,7 +14,7 @@ On macOS and Linux, you will need to install [minicom](https://www.google.com/se
 
 SSH stands for Secure Shell. It allows you to securely connect to and access a computer. It is the most common way to access a Raspberry Pi. When you SSH into Raspberry Pi, you get a [terminal](/terminal/introduction.md) that allows you to run commands.
 
-Make sure SSH was enabled during the [flashing of the SD card](/setup/flashing-sd.md).
+If you're using a new flashed SD card, make sure SSH was enabled during the [flashing of the SD card](/setup/flashing-sd.md).
 
 ### Ethernet
 
