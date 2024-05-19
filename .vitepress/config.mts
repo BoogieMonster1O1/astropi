@@ -59,9 +59,18 @@ export default defineConfig({
         ]
       },
       {
+	text: 'Livestreaming',
+	items: [
+	  { text: 'Setting up a livestream', link: '/livestream/setup.md'},
+	  { text: 'Exposing to the internet', link: '/livestream/expose.md'},
+	  { text: 'Horizontally scaling', link: '/livestream/scaling.md'},
+	]
+      },
+      {
 	text: 'State of the Union',
 	items: [
 	  { text: '19/04/2024', link: '/sotu/23-04-2024.md'},
+	  { text: '20/05/2024', link: '/sotu/20-05-2024.md'},
 	]
       },
       {
