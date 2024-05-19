@@ -63,7 +63,7 @@ export default defineConfig({
 	items: [
 	  { text: 'Setting up a livestream', link: '/livestream/setup.md'},
 	  { text: 'Exposing to the internet', link: '/livestream/expose.md'},
-	  { text: 'Horizontally scaling', link: '/livestream/scaling.md'},
+	  { text: 'NGiNX and scaling', link: '/livestream/scaling.md'},
 	]
       },
       {
